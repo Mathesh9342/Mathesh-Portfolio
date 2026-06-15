@@ -1,0 +1,16 @@
+.resume {
+  padding: 100px 0;
+}
+
+.resume-card {
+  background: #1f2937;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.resume-card p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #cbd5e1;
+}
