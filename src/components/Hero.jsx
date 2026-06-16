@@ -5,6 +5,8 @@ function Hero() {
   return (
     <section className="hero">
       <div className="container hero-content">
+
+        {/* Left Side */}
         <motion.div
           className="hero-left"
           initial={{ opacity: 0, x: -80 }}
@@ -14,7 +16,7 @@ function Hero() {
           <p className="subtitle">Backend Developer</p>
 
           <h1>
-            Hi, I'm <span>Mathesh Ravi</span>
+            Hi, I'm <span>Mathesh R</span>
           </h1>
 
           <h2>
@@ -28,10 +30,31 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <button className="btn">Hire Me</button>
-            <button className="btn">Download Resume</button>
+            <a href="#contact" className="btn">
+              Hire Me
+            </a>
+
+            <a href="/Software_Developer3.pdf" download className="btn">
+              Download Resume
+            </a>
           </div>
         </motion.div>
+
+        {/* Right Side - Profile Image */}
+        <motion.div
+          className="hero-right"
+          initial={{ opacity: 0, x: 80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <div className="profile-frame">
+            <img
+              src="/mathesh_profile.jpeg"
+              alt="Mathesh Profile"
+            />
+          </div>
+        </motion.div>
+
       </div>
     </section>
   );

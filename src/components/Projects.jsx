@@ -8,15 +8,10 @@ function Projects() {
       desc: 'Developed a complete hotel management platform with booking, billing, guests, rooms, suppliers, and invoice modules.',
     },
     {
-      title: 'Approval Workflow System',
-      stack: 'Node.js, Express.js, MySQL',
-      desc: 'Built a role-based approval system with maker-checker workflow, authentication, and notifications.',
+      title: 'Learning Management System (LMS)',
+      stack: 'HTML Handle bars (HBS), CSS, JavaScript, Node.js, Express.js, MySQL',
+      desc: 'Built a role-based learning management system with user authentication, course management, and progress tracking.',
     },
-    {
-      title: 'Real-Time Notification Platform',
-      stack: 'Node.js, Socket.IO',
-      desc: 'Implemented real-time communication system for instant notifications and live updates.',
-    }
   ];
 
   return (

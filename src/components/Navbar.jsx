@@ -7,7 +7,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container nav-wrapper">
-        <div className="logo">Mathesh Ravi</div>
+
+        {/* Logo Section */}
+        <div className="logo-container">
+          <img src="/mr_logo.ico" alt="MR Logo" className="nav-logo" />
+          <div className="logo-text">Mathesh R</div>
+        </div>
 
         <button
           className="menu-btn"

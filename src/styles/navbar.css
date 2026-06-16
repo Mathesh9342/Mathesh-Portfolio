@@ -14,7 +14,20 @@
   align-items: center;
 }
 
-.logo {
+/* NEW LOGO SECTION */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.logo-text {
   font-size: 24px;
   font-weight: 700;
   color: #3b82f6;
@@ -61,5 +74,14 @@
     background: #111827;
     padding: 20px;
     border-radius: 15px;
+  }
+
+  .nav-logo {
+    width: 34px;
+    height: 34px;
+  }
+
+  .logo-text {
+    font-size: 20px;
   }
 }
