@@ -2,19 +2,29 @@ import '../styles/experience.css';
 
 function Experience() {
   const experiences = [
-    {
-      role: 'Backend Developer',
-      company: 'Coderzbot',
-      duration: 'Current',
-      description:
-        'Working on backend development, API integrations, bug fixing, production issue resolution, and database optimization for live applications.',
-    },
-    {
+        {
       role: 'Software Developer',
       company: 'Freelance / Personal Projects',
+      duration: 'Current',
+      points: [
+        'Worked on IOB NEST, a live enterprise banking platform used by lakhs of users.',
+        'Developed frontend modules using React.js.',
+        'Built secure backend APIs using Node.js and Express.js.',
+        'Worked with Oracle Database for enterprise data operations.',
+        'Handled production issue resolution, debugging, and performance optimization.',
+        'Implemented secure workflows including field-level encryption and approval systems.',
+      ],
+    },
+    {
+      role: 'Backend Developer',
+      company: 'Coderzbot Innovation Pvt Ltd',
       duration: 'Previous',
-      description:
-        'Built scalable applications including hotel management systems, workflow systems, and real-time notification platforms.',
+      points: [
+        'Began my journey in the software industry as a Backend Developer', 
+        'Focusing on backend architecture and API development using Python FastAPI',
+        'Built secure and efficient APIs, implemented core business logic',
+        'Managed data operations using MySQL databases',
+      ],
     },
   ];
 
@@ -26,10 +36,18 @@ function Experience() {
         <div className="timeline">
           {experiences.map((exp, index) => (
             <div className="timeline-card" key={index}>
-              <h3>{exp.role}</h3>
+              <div className="experience-header">
+                <h3>{exp.role}</h3>
+                <span className="duration">{exp.duration}</span>
+              </div>
+
               <h4>{exp.company}</h4>
-              <span>{exp.duration}</span>
-              <p>{exp.description}</p>
+
+              <ul>
+                {exp.points.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>

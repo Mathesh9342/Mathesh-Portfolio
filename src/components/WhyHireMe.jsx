@@ -9,7 +9,7 @@ function WhyHireMe() {
   ];
 
   return (
-    <section className="why-hire">
+    <section className="why-hire-me"  id="why-hire-me">
       <div className="container">
         <h2 className="section-title">Why Hire Me?</h2>
 

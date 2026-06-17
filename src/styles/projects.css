@@ -38,8 +38,69 @@
   line-height: 1.8;
 }
 
+/* =========================
+   FEATURED IOB NEST CARD
+========================= */
+.featured-project {
+  position: relative;
+  border: 2px solid #3b82f6;
+  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.25);
+  transform: scale(1.03);
+}
+
+.featured-badge {
+  position: absolute;
+  top: -14px;
+  right: 20px;
+  background: #3b82f6;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+}
+
+.enterprise-tag {
+  color: #60a5fa;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   LIVE PROJECT BUTTON
+========================= */
+.project-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.project-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.35);
+}
+
+/* =========================
+   MOBILE
+========================= */
 @media (max-width: 900px) {
   .project-card {
     width: 100%;
+  }
+
+  .featured-badge {
+    font-size: 10px;
+    padding: 6px 10px;
+    right: 12px;
   }
 }
