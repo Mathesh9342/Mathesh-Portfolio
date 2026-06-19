@@ -1,11 +1,10 @@
-import { motion } from 'framer-motion';
-import '../styles/hero.css';
+import { motion } from "framer-motion";
+import "../styles/hero.css";
 
 function Hero() {
   return (
     <section className="hero">
       <div className="container hero-content">
-
         {/* Left Side */}
         <motion.div
           className="hero-left"
@@ -13,20 +12,24 @@ function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <p className="subtitle">Backend Developer</p>
+          <p className="subtitle">
+            Backend Engineer | Enterprise API Developer
+          </p>
 
           <h1>
             Hi, I'm <span>Mathesh R</span>
           </h1>
 
           <h2>
-            Building Scalable APIs, Real-Time Systems & Secure Backend Solutions
+            Building Secure APIs, Enterprise Systems & Scalable Backend
+            Architecture
           </h2>
 
           <p className="description">
-            Backend Developer specializing in Node.js, Express.js,
-            MySQL, MSSQL, REST APIs, authentication systems,
-            and production issue resolution in live applications.
+            Backend Engineer with real-world enterprise experience in banking
+            applications. Specialized in secure API development, database
+            engineering, backend architecture, and production issue resolution
+            for scalable software systems.
           </p>
 
           <div className="hero-buttons">
@@ -48,13 +51,9 @@ function Hero() {
           transition={{ duration: 1 }}
         >
           <div className="profile-frame">
-            <img
-              src="/mathesh_profile.jpeg"
-              alt="Mathesh Profile"
-            />
+            <img src="/mathesh_profile.jpeg" alt="Mathesh Profile" />
           </div>
         </motion.div>
-
       </div>
     </section>
   );

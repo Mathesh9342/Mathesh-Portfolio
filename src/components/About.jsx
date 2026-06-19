@@ -8,26 +8,26 @@ function About() {
 
         <div className="about-card">
           <p>
-            I am a passionate Backend Developer specializing in building
-            scalable server-side applications, secure APIs, and efficient
-            database architectures.
+            I am a Backend Engineer passionate about building secure,
+            scalable, and high-performance software systems that solve
+            real business problems.
           </p>
 
           <p>
-            My expertise includes working with Node.js, Express.js,
-            REST APIs, MySQL, and Microsoft SQL Server to deliver
-            production-grade applications.
+            I specialize in backend development using Node.js, Express.js,
+            REST APIs, MySQL, Oracle Database, and enterprise application workflows.
           </p>
 
           <p>
-            I have real-world experience solving bugs and critical issues
-            in live applications, optimizing performance, and ensuring
-            reliable backend systems for business operations.
+            I have hands-on experience working on production-scale applications
+            including IOB NEST, an enterprise banking platform serving lakhs
+            of users across India.
           </p>
 
           <p>
-            I focus on writing clean, maintainable code and solving
-            complex business problems through scalable software solutions.
+            My strengths include API design, debugging critical production issues,
+            database optimization, secure workflow implementation, and writing
+            clean maintainable code.
           </p>
         </div>
       </div>

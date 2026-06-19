@@ -4,7 +4,7 @@ function Experience() {
   const experiences = [
         {
       role: 'Software Developer',
-      company: 'Freelance / Personal Projects',
+      company: 'Muthu Soft Labs/ Freelancer',
       duration: 'Current',
       points: [
         'Worked on IOB NEST, a live enterprise banking platform used by lakhs of users.',
